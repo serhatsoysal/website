@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkserhatsoysal_website=self.webpackChunkserhatsoysal_website||[]).push([[68],{6068:(s,e,a)=>{s.exports=a.p+"static/media/scalable-microservices-spring-boot.c38d6010807040bf7f82.md"}}]);

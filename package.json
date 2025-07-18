@@ -2,7 +2,7 @@
   "name": "serhatsoysal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://serhatsoysal.github.io/ss-personalweb",
+  "homepage": "https://serhatsoysal.github.io",
   "dependencies": {
     "framer-motion": "^9.0.0",
     "gh-pages": "^6.3.0",
