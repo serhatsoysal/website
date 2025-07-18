@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.b625f02a.css",
+    "main.js": "/website/static/js/main.4f66ec73.js",
+    "static/js/447.ee19ab2a.chunk.js": "/website/static/js/447.ee19ab2a.chunk.js",
+    "static/js/68.a396d59f.chunk.js": "/website/static/js/68.a396d59f.chunk.js",
+    "static/media/scalable-microservices-spring-boot.md": "/website/static/media/scalable-microservices-spring-boot.c38d6010807040bf7f82.md",
+    "static/media/modern-frontend-react-typescript.md": "/website/static/media/modern-frontend-react-typescript.e30ff04e530c54012855.md",
+    "index.html": "/website/index.html",
+    "main.b625f02a.css.map": "/website/static/css/main.b625f02a.css.map",
+    "main.4f66ec73.js.map": "/website/static/js/main.4f66ec73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b625f02a.css",
+    "static/js/main.4f66ec73.js"
+  ]
+}
