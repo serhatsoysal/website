@@ -10,9 +10,9 @@ const Footer = () => {
   
   const socialLinks = [
     { name: 'GitHub', icon: FiGithub, url: 'https://github.com/serhatsoysal' },
-    { name: 'LinkedIn', icon: FiLinkedin, url: 'https://linkedin.com/in/serhatsoysal' },
-    { name: 'Twitter', icon: FiTwitter, url: 'https://twitter.com/serhatsoysal' },
-    { name: 'Email', icon: FiMail, url: 'mailto:serhat@serhatsoysal.com' }
+    { name: 'LinkedIn', icon: FiLinkedin, url: 'https://linkedin.com/in/soysalserhat' },
+    { name: 'Twitter', icon: FiTwitter, url: 'https://twitter.com/serhatsoysalx' },
+    { name: 'Email', icon: FiMail, url: 'mailto:serhatsoysalx@gmail.com' }
   ];
 
   const footerLinks = [

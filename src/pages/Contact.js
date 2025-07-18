@@ -34,19 +34,19 @@ const Contact = () => {
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/serhatsoysal',
+      url: 'https://linkedin.com/in/soysalserhat',
       icon: FiLinkedin,
       color: 'hover:text-blue-600'
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/serhatsoysal',
+      url: 'https://twitter.com/serhatsoysalx',
       icon: FiTwitter,
       color: 'hover:text-blue-400'
     },
     {
       name: 'Email',
-      url: 'mailto:serhat@serhatsoysal.com',
+      url: 'mailto:serhatsoysalx@gmail.com',
       icon: FiMail,
       color: 'hover:text-red-500'
     }

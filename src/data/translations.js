@@ -24,19 +24,43 @@ export const translations = {
         }
       },
       services: {
-        title: 'What I Do',
-        subtitle: 'I build robust, scalable applications using modern technologies and best practices.',
+        title: 'Professional Services',
+        subtitle: 'Delivering enterprise-grade solutions with cutting-edge technologies and industry best practices.',
         fullStack: {
           title: 'Full-Stack Development',
-          description: 'Building end-to-end applications with React, Spring Boot, and modern frameworks.'
+          description: 'End-to-end application development with React, TypeScript, Spring Boot, and Node.js. Delivering scalable solutions with modern architectures, clean code practices, and comprehensive testing strategies.'
         },
         cloudNative: {
           title: 'Cloud-Native Solutions',
-          description: 'Designing and deploying scalable applications on AWS, Docker, and Kubernetes.'
+          description: 'Architecting and deploying highly scalable applications on AWS, Azure, and GCP. Expert in containerization with Docker, orchestration with Kubernetes, and serverless architectures.'
         },
         systemDesign: {
           title: 'System Architecture',
-          description: 'Creating efficient, maintainable systems with microservices and distributed architectures.'
+          description: 'Designing resilient, high-performance systems using microservices, event-driven architectures, and distributed computing patterns. Focus on scalability, reliability, and maintainability.'
+        },
+        devops: {
+          title: 'DevOps & CI/CD',
+          description: 'Implementing automated deployment pipelines, infrastructure as code, and monitoring solutions. Expertise in Jenkins, GitLab CI, GitHub Actions, and cloud-native deployment strategies.'
+        },
+        database: {
+          title: 'Database Solutions',
+          description: 'Designing and optimizing database architectures for performance and scalability. Expert in PostgreSQL, MongoDB, Redis, and database migration strategies for enterprise applications.'
+        },
+        apiDesign: {
+          title: 'API Design & Integration',
+          description: 'Creating RESTful APIs, GraphQL endpoints, and real-time communication systems. Focus on security, performance, and developer experience with comprehensive documentation.'
+        },
+        performance: {
+          title: 'Performance Optimization',
+          description: 'Analyzing and optimizing application performance, reducing load times, and implementing caching strategies. Expert in profiling, monitoring, and capacity planning.'
+        },
+        security: {
+          title: 'Security & Compliance',
+          description: 'Implementing security best practices, authentication systems, and compliance frameworks. Experience with OAuth, JWT, data encryption, and security auditing.'
+        },
+        consulting: {
+          title: 'Technical Leadership',
+          description: 'Providing strategic technical guidance, code reviews, and mentorship. Helping teams adopt best practices, improve code quality, and deliver high-quality software solutions.'
         }
       },
       stats: {
@@ -123,7 +147,7 @@ export const translations = {
     
     // Footer
     footer: {
-      description: 'Full-stack Software Engineer crafting scalable systems and smart interfaces.',
+      description: 'Full-stack Software Engineer specializing in enterprise-grade solutions with React, TypeScript, Spring Boot, and cloud-native architectures. Passionate about clean code, system design, and delivering exceptional user experiences through scalable, maintainable applications.',
       quickLinks: 'Quick Links',
       contact: 'Contact',
       copyright: '© {{year}} Serhat Soysal. All rights reserved.',
@@ -170,19 +194,43 @@ export const translations = {
         }
       },
       services: {
-        title: 'Neler Yapıyorum',
-        subtitle: 'Modern teknolojiler ve en iyi uygulamaları kullanarak sağlam, ölçeklenebilir uygulamalar geliştiriyorum.',
+        title: 'Profesyonel Hizmetler',
+        subtitle: 'Cutting-edge teknolojiler ve endüstri en iyi uygulamaları ile kurumsal düzeyde çözümler sunuyorum.',
         fullStack: {
           title: 'Full-Stack Geliştirme',
-          description: 'React, Spring Boot ve modern frameworkler ile uçtan uca uygulamalar geliştiriyorum.'
+          description: 'React, TypeScript, Spring Boot ve Node.js ile uçtan uca uygulama geliştirme. Modern mimariler, temiz kod uygulamaları ve kapsamlı test stratejileri ile ölçeklenebilir çözümler sunuyorum.'
         },
         cloudNative: {
           title: 'Bulut-Tabanlı Çözümler',
-          description: 'AWS, Docker ve Kubernetes üzerinde ölçeklenebilir uygulamalar tasarlıyor ve dağıtıyorum.'
+          description: 'AWS, Azure ve GCP üzerinde yüksek ölçeklenebilir uygulamalar tasarlıyor ve dağıtıyorum. Docker ile konteynerleştirme, Kubernetes ile orkestrasyon ve serverless mimarilerde uzmanım.'
         },
         systemDesign: {
           title: 'Sistem Mimarisi',
-          description: 'Mikroservisler ve dağıtık mimariler ile verimli, sürdürülebilir sistemler oluşturuyorum.'
+          description: 'Mikroservisler, event-driven mimariler ve dağıtık bilişim desenleri kullanarak dayanıklı, yüksek performanslı sistemler tasarlıyorum. Ölçeklenebilirlik, güvenilirlik ve sürdürülebilirlik odaklı.'
+        },
+        devops: {
+          title: 'DevOps & CI/CD',
+          description: 'Otomatik deployment pipeline\'ları, infrastructure as code ve monitoring çözümleri uyguluyorum. Jenkins, GitLab CI, GitHub Actions ve cloud-native deployment stratejilerinde uzmanım.'
+        },
+        database: {
+          title: 'Veritabanı Çözümleri',
+          description: 'Performans ve ölçeklenebilirlik için veritabanı mimarileri tasarlıyor ve optimize ediyorum. PostgreSQL, MongoDB, Redis ve kurumsal uygulamalar için veritabanı migrasyon stratejilerinde uzmanım.'
+        },
+        apiDesign: {
+          title: 'API Tasarımı & Entegrasyon',
+          description: 'RESTful API\'ler, GraphQL endpoint\'leri ve gerçek zamanlı iletişim sistemleri oluşturuyorum. Kapsamlı dokümantasyonla güvenlik, performans ve developer experience odaklı.'
+        },
+        performance: {
+          title: 'Performans Optimizasyonu',
+          description: 'Uygulama performansını analiz ediyor ve optimize ediyorum, yükleme sürelerini azaltıyor ve önbellekleme stratejileri uyguluyorum. Profiling, monitoring ve kapasite planlamasında uzmanım.'
+        },
+        security: {
+          title: 'Güvenlik & Compliance',
+          description: 'Güvenlik en iyi uygulamaları, kimlik doğrulama sistemleri ve compliance çerçeveleri uyguluyorum. OAuth, JWT, veri şifreleme ve güvenlik denetimi konularında deneyimliyim.'
+        },
+        consulting: {
+          title: 'Teknik Liderlik',
+          description: 'Stratejik teknik rehberlik, kod incelemeleri ve mentörlük sağlıyorum. Ekiplerin en iyi uygulamaları benimsemeleri, kod kalitesini artırmaları ve yüksek kaliteli yazılım çözümleri sunmalarına yardımcı oluyorum.'
         }
       },
       stats: {
@@ -269,7 +317,7 @@ export const translations = {
     
     // Footer
     footer: {
-      description: 'Ölçeklenebilir sistemler ve akıllı arayüzler geliştiren Full-Stack Yazılım Mühendisi.',
+      description: 'React, TypeScript, Spring Boot ve bulut-native mimariler ile kurumsal düzeyde çözümler konusunda uzmanlaşmış Full-Stack Yazılım Mühendisi. Temiz kod, sistem tasarımı ve ölçeklenebilir, sürdürülebilir uygulamalar aracılığıyla olağanüstü kullanıcı deneyimleri sunma konusunda tutkulu.',
       quickLinks: 'Hızlı Bağlantılar',
       contact: 'İletişim',
       copyright: '© {{year}} Serhat Soysal. Tüm hakları saklıdır.',
@@ -316,19 +364,43 @@ export const translations = {
         }
       },
       services: {
-        title: 'ما أقوم به',
-        subtitle: 'أقوم ببناء تطبيقات قوية وقابلة للتوسع باستخدام التقنيات الحديثة وأفضل الممارسات.',
+        title: 'الخدمات المهنية',
+        subtitle: 'تقديم حلول على مستوى المؤسسات بأحدث التقنيات وأفضل الممارسات الصناعية.',
         fullStack: {
           title: 'التطوير المتكامل',
-          description: 'بناء تطبيقات شاملة باستخدام React و Spring Boot والأطر الحديثة.'
+          description: 'تطوير تطبيقات شاملة باستخدام React، TypeScript، Spring Boot، و Node.js. تقديم حلول قابلة للتوسع مع المعمارية الحديثة، ممارسات الكود النظيف، واستراتيجيات الاختبار الشاملة.'
         },
         cloudNative: {
           title: 'الحلول السحابية',
-          description: 'تصميم ونشر تطبيقات قابلة للتوسع على AWS و Docker و Kubernetes.'
+          description: 'تصميم ونشر تطبيقات عالية التوسع على AWS، Azure، و GCP. خبير في الحاويات مع Docker، التنسيق مع Kubernetes، والمعماريات بدون خادم.'
         },
         systemDesign: {
           title: 'هندسة الأنظمة',
-          description: 'إنشاء أنظمة فعالة وقابلة للصيانة باستخدام الخدمات الصغيرة والبنى الموزعة.'
+          description: 'تصميم أنظمة مرنة وعالية الأداء باستخدام الخدمات الصغيرة والمعماريات المدفوعة بالأحداث وأنماط الحوسبة الموزعة. التركيز على قابلية التوسع والموثوقية والصيانة.'
+        },
+        devops: {
+          title: 'DevOps & CI/CD',
+          description: 'تنفيذ خطوط أنابيب النشر الآلية، والبنية التحتية كرمز، وحلول المراقبة. الخبرة في Jenkins، GitLab CI، GitHub Actions، واستراتيجيات النشر السحابية الأصلية.'
+        },
+        database: {
+          title: 'حلول قواعد البيانات',
+          description: 'تصميم وتحسين معماريات قواعد البيانات للأداء وقابلية التوسع. خبير في PostgreSQL، MongoDB، Redis، واستراتيجيات ترحيل قواعد البيانات للتطبيقات المؤسسية.'
+        },
+        apiDesign: {
+          title: 'تصميم API والتكامل',
+          description: 'إنشاء RESTful APIs، نقاط GraphQL، وأنظمة التواصل في الوقت الفعلي. التركيز على الأمان والأداء وتجربة المطور مع التوثيق الشامل.'
+        },
+        performance: {
+          title: 'تحسين الأداء',
+          description: 'تحليل وتحسين أداء التطبيقات، تقليل أوقات التحميل، وتنفيذ استراتيجيات التخزين المؤقت. خبير في التشخيص والمراقبة وتخطيط السعة.'
+        },
+        security: {
+          title: 'الأمان والامتثال',
+          description: 'تنفيذ أفضل ممارسات الأمان، أنظمة المصادقة، وإطارات الامتثال. خبرة في OAuth، JWT، تشفير البيانات، ومراجعة الأمان.'
+        },
+        consulting: {
+          title: 'القيادة التقنية',
+          description: 'تقديم التوجيه التقني الاستراتيجي، مراجعات الكود، والإرشاد. مساعدة الفرق على تبني أفضل الممارسات، تحسين جودة الكود، وتقديم حلول برمجية عالية الجودة.'
         }
       },
       stats: {
@@ -415,7 +487,7 @@ export const translations = {
     
     // Footer
     footer: {
-      description: 'مهندس برمجيات متكامل يصنع أنظمة قابلة للتوسع وواجهات ذكية.',
+      description: 'مهندس برمجيات متكامل متخصص في الحلول على مستوى المؤسسات باستخدام React، TypeScript، Spring Boot، والهندسة المعمارية السحابية الأصلية. شغوف بالكود النظيف، تصميم الأنظمة، وتقديم تجارب مستخدم استثنائية من خلال التطبيقات القابلة للتوسع والقابلة للصيانة.',
       quickLinks: 'روابط سريعة',
       contact: 'اتصل بي',
       copyright: '© {{year}} سرحات سويسال. جميع الحقوق محفوظة.',
@@ -561,7 +633,7 @@ export const translations = {
     
     // Footer
     footer: {
-      description: 'Ingegnere Software Full-Stack che crea sistemi scalabili e interfacce intelligenti.',
+      description: 'Ingegnere Software Full-Stack specializzato in soluzioni enterprise con React, TypeScript, Spring Boot e architetture cloud-native. Appassionato di codice pulito, progettazione di sistemi e creazione di esperienze utente eccezionali attraverso applicazioni scalabili e manutenibili.',
       quickLinks: 'Link Rapidi',
       contact: 'Contatti',
       copyright: '© {{year}} Serhat Soysal. Tutti i diritti riservati.',

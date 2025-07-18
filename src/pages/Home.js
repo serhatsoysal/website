@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FiArrowRight, FiCode, FiLayers, FiZap } from 'react-icons/fi';
+import { FiArrowRight, FiCode, FiLayers, FiZap, FiSettings, FiDatabase, FiGlobe, FiTrendingUp, FiShield, FiUsers } from 'react-icons/fi';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from '../contexts/LanguageContext';
 
@@ -211,7 +211,7 @@ const Home = () => {
               </p>
             </motion.div>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -225,7 +225,7 @@ const Home = () => {
                 <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                   {t('home.services.fullStack.title')}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300">
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   {t('home.services.fullStack.description')}
                 </p>
               </motion.div>
@@ -243,7 +243,7 @@ const Home = () => {
                 <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                   {t('home.services.cloudNative.title')}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300">
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   {t('home.services.cloudNative.description')}
                 </p>
               </motion.div>
@@ -261,8 +261,116 @@ const Home = () => {
                 <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                   {t('home.services.systemDesign.title')}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300">
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   {t('home.services.systemDesign.description')}
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.4 }}
+                className="text-center p-6 bg-white dark:bg-dark-700 rounded-lg shadow-lg card-hover"
+              >
+                <div className="w-16 h-16 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <FiSettings className="w-8 h-8 text-primary-600 dark:text-primary-400" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
+                  {t('home.services.devops.title')}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
+                  {t('home.services.devops.description')}
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.5 }}
+                className="text-center p-6 bg-white dark:bg-dark-700 rounded-lg shadow-lg card-hover"
+              >
+                <div className="w-16 h-16 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <FiDatabase className="w-8 h-8 text-primary-600 dark:text-primary-400" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
+                  {t('home.services.database.title')}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
+                  {t('home.services.database.description')}
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.6 }}
+                className="text-center p-6 bg-white dark:bg-dark-700 rounded-lg shadow-lg card-hover"
+              >
+                <div className="w-16 h-16 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <FiGlobe className="w-8 h-8 text-primary-600 dark:text-primary-400" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
+                  {t('home.services.apiDesign.title')}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
+                  {t('home.services.apiDesign.description')}
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.7 }}
+                className="text-center p-6 bg-white dark:bg-dark-700 rounded-lg shadow-lg card-hover"
+              >
+                <div className="w-16 h-16 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <FiTrendingUp className="w-8 h-8 text-primary-600 dark:text-primary-400" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
+                  {t('home.services.performance.title')}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
+                  {t('home.services.performance.description')}
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.8 }}
+                className="text-center p-6 bg-white dark:bg-dark-700 rounded-lg shadow-lg card-hover"
+              >
+                <div className="w-16 h-16 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <FiShield className="w-8 h-8 text-primary-600 dark:text-primary-400" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
+                  {t('home.services.security.title')}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
+                  {t('home.services.security.description')}
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.9 }}
+                className="text-center p-6 bg-white dark:bg-dark-700 rounded-lg shadow-lg card-hover"
+              >
+                <div className="w-16 h-16 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <FiUsers className="w-8 h-8 text-primary-600 dark:text-primary-400" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
+                  {t('home.services.consulting.title')}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
+                  {t('home.services.consulting.description')}
                 </p>
               </motion.div>
             </div>
