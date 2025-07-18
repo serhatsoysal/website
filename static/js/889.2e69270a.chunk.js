@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkserhatsoysal_website=self.webpackChunkserhatsoysal_website||[]).push([[889],{9889:(e,s,a)=>{e.exports=a.p+"static/media/ai-integration-modern-apps.bff7b1df1f8ecdb69eb0.md"}}]);

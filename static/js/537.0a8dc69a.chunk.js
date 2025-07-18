@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkserhatsoysal_website=self.webpackChunkserhatsoysal_website||[]).push([[537],{1537:(e,s,t)=>{e.exports=t.p+"static/media/kubernetes-container-orchestration.8c8463deb1a344adc3b5.md"}}]);

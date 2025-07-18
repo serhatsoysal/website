@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkserhatsoysal_website=self.webpackChunkserhatsoysal_website||[]).push([[447],{447:(e,s,t)=>{e.exports=t.p+"static/media/modern-frontend-react-typescript.e30ff04e530c54012855.md"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkserhatsoysal_website=self.webpackChunkserhatsoysal_website||[]).push([[9],{8009:(s,e,a)=>{s.exports=a.p+"static/media/database-design-patterns.23faf9f17a83903bedc9.md"}}]);
