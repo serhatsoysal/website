@@ -14,40 +14,29 @@ export const useTranslation = () => {
   return context;
 };
 
-// Language Provider Component - Single Responsibility Principle
 export const LanguageProvider = ({ children }) => {
   const { currentLanguage, switchLanguage, supportedLanguages, currentLanguageInfo } = useLanguage();
 
-  // Translation function with fallback - Interface Segregation Principle
   const t = (key, params = {}) => {
     const keys = key.split('.');
     let translation = translations[currentLanguage];
-    
-    // Navigate through nested translation keys
     for (const k of keys) {
       translation = translation?.[k];
     }
-    
-    // Fallback to English if translation not found
     if (!translation) {
       translation = translations.en;
       for (const k of keys) {
         translation = translation?.[k];
       }
     }
-    
-    // Final fallback to key itself
     if (!translation) {
       return key;
     }
-    
-    // Replace parameters in translation
     if (typeof translation === 'string' && Object.keys(params).length > 0) {
       return translation.replace(/\{\{(\w+)\}\}/g, (match, param) => {
         return params[param] || match;
       });
     }
-    
     return translation;
   };
 

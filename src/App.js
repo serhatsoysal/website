@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { useDarkMode } from './hooks/useDarkMode';
 import { LanguageProvider } from './contexts/LanguageContext';
+import ScrollToTop from './components/ScrollToTop';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -17,7 +18,8 @@ function App() {
 
   return (
     <LanguageProvider>
-      <div className="min-h-screen bg-white dark:bg-dark-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+      <div className="min-h-screen bg-white dark:bg-background-dark text-gray-900 dark:text-gray-100 transition-colors duration-300">
+        <ScrollToTop />
         <Navigation isDark={isDark} toggleDarkMode={toggleDarkMode} />
         
         <Routes>
