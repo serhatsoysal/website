@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FiGlobe, FiChevronDown } from 'react-icons/fi';
 import { useTranslation } from '../contexts/LanguageContext';
 
-// Language Switcher Component - Single Responsibility Principle
 const LanguageSwitcher = () => {
   const { currentLanguage, switchLanguage, supportedLanguages } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
@@ -38,13 +37,10 @@ const LanguageSwitcher = () => {
       <AnimatePresence>
         {isOpen && (
           <>
-            {/* Backdrop */}
             <div 
               className="fixed inset-0 z-40"
               onClick={() => setIsOpen(false)}
             />
-            
-            {/* Dropdown Menu */}
             <motion.div
               initial={{ opacity: 0, y: -10, scale: 0.95 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}

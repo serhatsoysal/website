@@ -20,11 +20,11 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 inline-flex items-center gap-2 shadow-lg hover:shadow-xl;
+    @apply bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-full font-bold transition-all duration-200 inline-flex items-center gap-2 shadow-lg hover:shadow-xl hover:shadow-primary-600/25;
   }
   
   .btn-secondary {
-    @apply border-2 border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300 px-8 py-4 rounded-xl font-semibold transition-all duration-200 inline-flex items-center gap-2 shadow-md hover:shadow-lg;
+    @apply border border-white/20 bg-white/5 hover:bg-white/10 text-white px-8 py-4 rounded-full font-bold transition-all duration-200 inline-flex items-center gap-2 backdrop-blur-sm;
   }
   
   .section-padding {
@@ -36,7 +36,10 @@
   }
   
   .text-gradient {
-    @apply bg-gradient-to-r from-primary-600 to-blue-600 bg-clip-text text-transparent;
+    background: linear-gradient(135deg, #fff 0%, #8c2bee 50%, #d946ef 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
   
   .card-hover {
@@ -44,7 +47,22 @@
   }
   
   .glass-effect {
-    @apply backdrop-blur-sm bg-white/10 dark:bg-black/10 border border-white/20 dark:border-white/10;
+    @apply backdrop-blur-xl bg-white/70 dark:bg-slate-900/70 border border-gray-200/50 dark:border-white/10;
+  }
+
+  .glass-nav {
+    @apply backdrop-blur-xl bg-white/80 dark:bg-background-dark/80 border border-gray-200/50 dark:border-white/10 shadow-lg;
+  }
+
+  .glass-card {
+    @apply backdrop-blur-xl bg-white/5 dark:bg-white/5 border border-white/10 dark:border-white/10 shadow-2xl;
+  }
+
+  .bg-grid-pattern {
+    background-size: 40px 40px;
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
   }
   
   .gradient-bg {

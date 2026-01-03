@@ -1,7 +1,5 @@
-// Translation data following Single Responsibility Principle
 export const translations = {
   en: {
-    // Navigation
     nav: {
       home: 'Home',
       about: 'About',
@@ -9,15 +7,13 @@ export const translations = {
       blog: 'Blog',
       contact: 'Contact'
     },
-    
-    // Home Page
     home: {
       hero: {
         greeting: 'Hi, I\'m',
         name: 'Serhat Soysal',
-        title: 'Full-Stack Software Engineer',
-        subtitle: 'Crafting scalable systems & smart interfaces',
-        description: 'I build robust, scalable applications using cutting-edge technologies. Passionate about clean code, system design, and creating exceptional user experiences.',
+        title: 'Java Back-End Software Engineer | AI-Integrated Systems',
+        subtitle: 'Building high-performance microservices & scalable distributed systems',
+        description: 'Results-oriented Java Back-End Engineer with 5+ years of experience designing and optimizing scalable microservices and high-performance backend systems. Specialized in Java 11+, Spring Boot, Kafka, Docker, Kubernetes, Redis, and AWS. Proven experience integrating cutting-edge LLM/AI pipelines into enterprise applications.',
         cta: {
           viewWork: 'View My Work',
           getInTouch: 'Get in Touch'
@@ -25,42 +21,42 @@ export const translations = {
       },
       services: {
         title: 'Professional Services',
-        subtitle: 'Delivering enterprise-grade solutions with cutting-edge technologies and industry best practices.',
+        subtitle: 'Delivering enterprise-grade solutions with microservices architecture, cloud-native technologies, and industry best practices.',
         fullStack: {
-          title: 'Full-Stack Development',
-          description: 'End-to-end application development with React, TypeScript, Spring Boot, and Node.js. Delivering scalable solutions with modern architectures, clean code practices, and comprehensive testing strategies.'
+          title: 'Java Backend Development',
+          description: 'Enterprise-grade backend development with Java 11+, Spring Boot, Spring Security, Spring Cloud, and Spring Data. Building scalable microservices architectures handling high transaction volumes for telecom-grade systems with comprehensive testing and clean code practices.'
         },
         cloudNative: {
           title: 'Cloud-Native Solutions',
-          description: 'Architecting and deploying highly scalable applications on AWS, Azure, and GCP. Expert in containerization with Docker, orchestration with Kubernetes, and serverless architectures.'
+          description: 'Production-ready applications on AWS with Docker containerization and Kubernetes orchestration. Expertise in Lambda, EC2, S3, RDS, CloudWatch, and cloud-native deployment patterns for distributed systems.'
         },
         systemDesign: {
-          title: 'System Architecture',
-          description: 'Designing resilient, high-performance systems using microservices, event-driven architectures, and distributed computing patterns. Focus on scalability, reliability, and maintainability.'
+          title: 'Microservices Architecture',
+          description: 'Designing resilient, high-performance distributed systems using microservices patterns, event-driven architectures with Kafka and RabbitMQ, API Gateway, and service orchestration. Focus on scalability, reliability, and zero-downtime deployments for large-scale platforms.'
         },
         devops: {
           title: 'DevOps & CI/CD',
-          description: 'Implementing automated deployment pipelines, infrastructure as code, and monitoring solutions. Expertise in Jenkins, GitLab CI, GitHub Actions, and cloud-native deployment strategies.'
+          description: 'Automated CI/CD pipelines using Jenkins, GitHub Actions, and GitLab CI. Infrastructure as code with Terraform, containerized deployments, and continuous integration workflows optimizing deployment speed and reliability for microservices ecosystems.'
         },
         database: {
           title: 'Database Solutions',
-          description: 'Designing and optimizing database architectures for performance and scalability. Expert in PostgreSQL, MongoDB, Redis, and database migration strategies for enterprise applications.'
+          description: 'Architecting and optimizing database systems for telecom-grade applications. Expert in PostgreSQL, MySQL, SQL Server, MongoDB, Redis, and Elasticsearch. Performance tuning, query optimization, data indexing, and migration strategies using Flyway.'
         },
         apiDesign: {
           title: 'API Design & Integration',
-          description: 'Creating RESTful APIs, GraphQL endpoints, and real-time communication systems. Focus on security, performance, and developer experience with comprehensive documentation.'
+          description: 'Building RESTful APIs, SOAP/WSDL services, and real-time communication with WebSockets. Expertise in high-volume transaction handling, secure API flows with OAuth2 and JWT, comprehensive documentation, and API Gateway patterns for distributed architectures.'
         },
         performance: {
           title: 'Performance Optimization',
-          description: 'Analyzing and optimizing application performance, reducing load times, and implementing caching strategies. Expert in profiling, monitoring, and capacity planning.'
+          description: 'Optimizing backend systems achieving measurable improvements in response times and throughput. Reducing API latency through caching with Redis, profiling, metric-based tuning, and performance optimization for telecom payment platforms.'
         },
         security: {
           title: 'Security & Compliance',
-          description: 'Implementing security best practices, authentication systems, and compliance frameworks. Experience with OAuth, JWT, data encryption, and security auditing.'
+          description: 'Implementing Spring Security, OAuth2, JWT authentication, and secure transaction flows. Experience with data encryption, security auditing, and building compliant systems for enterprise and telecom industries.'
         },
         consulting: {
-          title: 'Technical Leadership',
-          description: 'Providing strategic technical guidance, code reviews, and mentorship. Helping teams adopt best practices, improve code quality, and deliver high-quality software solutions.'
+          title: 'Technical Leadership & AI Integration',
+          description: 'Strategic technical guidance, code reviews, and mentorship. Integrating cutting-edge LLM/AI pipelines, OpenAI GPT, TTS, and multimodal AI into enterprise applications. Helping teams adopt microservices best practices and deliver high-quality distributed systems.'
         }
       },
       stats: {
@@ -70,55 +66,172 @@ export const translations = {
         clients: 'Happy Clients'
       }
     },
-    
-    // About Page
     about: {
-      title: 'About Me',
-      subtitle: 'Full-Stack Software Engineer with a passion for innovation',
-      intro: 'I\'m a passionate full-stack software engineer with expertise in building scalable, high-performance applications. My journey in software development has been driven by curiosity and a desire to solve complex problems through elegant code.',
-      background: {
-        title: 'Background',
-        content: 'With years of experience in software development, I\'ve worked on various projects ranging from microservices architectures to modern web applications. I believe in writing clean, maintainable code and following industry best practices.'
+      meta: {
+        title: 'About | Serhat Soysal',
+        description: 'Learn more about Serhat Soysal, Java Back-End Software Engineer specializing in microservices, cloud-native technologies, and AI integration.'
+      },
+      hero: {
+        badge: 'Software Engineer',
+        title: 'About Me',
+        subtitle: 'Passionate about building scalable solutions and exploring emerging technologies'
+      },
+      stats: {
+        experience: 'Years Experience',
+        projects: 'Projects Completed',
+        technologies: 'Technologies',
+        uptime: 'Uptime'
+      },
+      intro: {
+        greeting: 'Hello, I\'m Serhat!',
+        paragraph1: 'I\'m a passionate Java Back-End Software Engineer with a strong focus on building scalable, efficient, and reliable applications. My journey in software development has led me to specialize in microservices architecture with expertise in cloud-native technologies and AI integration.',
+        paragraph2: 'I enjoy solving complex problems and turning ideas into robust software solutions. Whether it\'s architecting microservices, optimizing database performance, or integrating AI/ML pipelines, I approach every project with attention to detail and a commitment to quality.',
+        quote: '"Clean code, scalable systems, innovative solutions."'
+      },
+      focus: {
+        whatIDo: {
+          title: 'What I Do',
+          items: [
+            'Enterprise Java backend development',
+            'Microservices architecture design',
+            'Cloud-native application deployment',
+            'DevOps & CI/CD pipeline implementation',
+            'Database optimization & management',
+            'AI/ML integration into applications'
+          ]
+        },
+        currentFocus: {
+          title: 'Current Focus',
+          items: [
+            'Advanced microservices patterns',
+            'Kubernetes & container orchestration',
+            'Event-driven architectures with Kafka',
+            'AI/LLM integration in enterprise systems',
+            'Performance optimization at scale',
+            'Open source contributions'
+          ]
+        }
       },
       skills: {
-        title: 'Technical Skills',
-        backend: 'Backend Development',
-        frontend: 'Frontend Development',
-        cloud: 'Cloud & DevOps',
-        database: 'Database Management'
+        title: 'Core Competencies',
+        subtitle: 'Technologies and tools I use to build amazing applications',
+        backend: {
+          title: 'Backend & Microservices',
+          items: ['Java 11+', 'Spring Boot', 'Spring Cloud', 'Kafka', 'RabbitMQ', 'WebSocket', 'REST API', 'SOAP']
+        },
+        cloud: {
+          title: 'Cloud & DevOps',
+          items: ['AWS', 'Docker', 'Kubernetes', 'Jenkins', 'GitLab CI', 'Terraform', 'Lambda', 'EC2']
+        },
+        database: {
+          title: 'Databases',
+          items: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Elasticsearch', 'Flyway', 'JPA/Hibernate']
+        },
+        devops: {
+          title: 'Tools & Practices',
+          items: ['Git', 'Maven', 'Gradle', 'JUnit', 'Mockito', 'SonarQube', 'Agile/Scrum', 'TDD']
+        }
       },
-      approach: {
-        title: 'My Approach',
-        content: 'I believe in continuous learning and staying updated with the latest technologies. My approach combines technical excellence with user-centered design to create solutions that not only work well but also provide exceptional user experiences.'
+      experience: {
+        title: 'Professional Journey',
+        subtitle: 'Key milestones in my career',
+        senior: {
+          title: 'AI Software Developer',
+          company: 'Zainlee Technologies | Dubai, UAE',
+          description: 'Developed real-time face recognition and multimodal AI applications integrating image, voice, and text processing. Designed MCP Server components, webhook automation flows, and backend APIs. Built production-ready AI solutions using OpenAI LLM and TTS technologies.'
+        },
+        backend: {
+          title: 'Java Full-Stack Engineer',
+          company: 'Ericsson Telecommunications Inc. | Istanbul, Turkey',
+          description: 'Developed backend automation systems for Turkcell telecom operations. Implemented microservices with Redis caching, RabbitMQ messaging, and containerized using Docker. Automated workflows and integrated CI/CD pipelines using Jenkins.'
+        },
+        junior: {
+          title: 'Java Back-End Software Engineer',
+          company: 'Huawei Technologies Co. | Istanbul, Turkey',
+          description: 'Developed backend modules for large-scale telecom payment systems serving high transaction volumes. Designed secure transaction flows and optimized API performance through caching. Enhanced system reliability by restructuring REST endpoints.'
+        },
+        mepsan: {
+          title: 'Java Full-Stack Developer',
+          company: 'Mepsan Petrol Devices Inc. | Konya, Turkey',
+          description: 'Built automation systems for fuel station networks integrating IoT hardware with backend services. Implemented real-time data communication using MQTT and TCP/IP protocols.'
+        }
+      },
+      techStack: {
+        title: 'Technology Stack',
+        subtitle: 'Tools and technologies I work with daily'
+      },
+      cta: {
+        title: 'Let\'s Work Together',
+        description: 'I\'m always interested in new opportunities and challenging projects. Let\'s discuss how we can bring your ideas to life.',
+        contact: 'Get in Touch',
+        projects: 'View My Work'
       }
     },
-    
-    // Projects Page
     projects: {
-      title: 'My Projects',
-      subtitle: 'A collection of applications and solutions I\'ve built using modern technologies',
-      featured: 'Featured Projects',
-      allProjects: 'All Projects',
-      viewDemo: 'View Demo',
-      viewCode: 'View Code',
+      meta: {
+        title: 'Projects | Serhat Soysal',
+        description: 'Explore my portfolio of software projects including microservices, cloud solutions, and enterprise applications.'
+      },
+      hero: {
+        badge: 'My Work',
+        title: 'Featured Projects',
+        subtitle: 'A showcase of enterprise-grade applications and solutions I\'ve built'
+      },
+      filters: {
+        all: 'All Projects',
+        featured: 'Featured'
+      },
+      badges: {
+        featured: 'Featured'
+      },
       techStack: 'Tech Stack',
-      comingSoon: 'Coming Soon'
+      buttons: {
+        liveDemo: 'Live Demo',
+        github: 'GitHub',
+        viewProject: 'View Project',
+        viewCode: 'View Code'
+      },
+      cta: {
+        title: 'Interested in Working Together?',
+        description: 'I\'m always open to discussing new projects, creative ideas, or opportunities to collaborate.',
+        startProject: 'Start a Project',
+        viewGithub: 'View GitHub Profile'
+      }
     },
-    
-    // Blog Page
     blog: {
-      title: 'Latest Articles',
-      subtitle: 'Thoughts on software development, technology, and best practices',
+      meta: {
+        title: 'Blog | Serhat Soysal',
+        description: 'Technical blog posts about software development, microservices, cloud technologies, and programming best practices.'
+      },
+      hero: {
+        badge: 'Technical Blog',
+        title: 'Latest Articles',
+        subtitle: 'Technical insights, tutorials, and thoughts on software development'
+      },
+      search: {
+        placeholder: 'Search articles...'
+      },
+      tags: {
+        all: 'All Articles'
+      },
+      featured: {
+        title: 'Featured Article'
+      },
+      badges: {
+        featured: 'Featured'
+      },
       readMore: 'Read More',
-      readTime: 'min read',
-      publishedOn: 'Published on',
-      tags: 'Tags',
-      backToBlog: 'Back to Blog',
-      noArticles: 'No articles found.',
-      searchPlaceholder: 'Search articles...'
+      noResults: {
+        title: 'No articles found',
+        description: 'Try adjusting your search or filter to find what you\'re looking for.'
+      },
+      cta: {
+        title: 'Stay Updated',
+        description: 'Follow me on social media or reach out directly to stay updated with my latest posts and projects.',
+        getInTouch: 'Get in Touch',
+        followGithub: 'Follow on GitHub'
+      }
     },
-    
-    // Contact Page
     contact: {
       title: 'Get in Touch',
       subtitle: 'Let\'s discuss your project or just say hello',
@@ -144,17 +257,13 @@ export const translations = {
         connect: 'Let\'s connect on professional networks'
       }
     },
-    
-    // Footer
     footer: {
-      description: 'Full-stack Software Engineer specializing in enterprise-grade solutions with React, TypeScript, Spring Boot, and cloud-native architectures. Passionate about clean code, system design, and delivering exceptional user experiences through scalable, maintainable applications.',
+      description: 'Java Back-End Software Engineer with 5+ years specializing in scalable microservices, Spring Boot, Kafka, Docker, Kubernetes, and AWS. Expert in building high-performance distributed systems for telecom platforms and integrating AI/ML pipelines into enterprise applications. Based in Dubai, UAE.',
       quickLinks: 'Quick Links',
       contact: 'Contact',
       copyright: '© {{year}} Serhat Soysal. All rights reserved.',
       builtWith: 'Built with React & Tailwind CSS'
     },
-    
-    // Common
     common: {
       loading: 'Loading...',
       error: 'Something went wrong',
@@ -169,9 +278,7 @@ export const translations = {
       lightMode: 'Light Mode'
     }
   },
-  
   tr: {
-    // Navigation
     nav: {
       home: 'Ana Sayfa',
       about: 'Hakkımda',
@@ -179,15 +286,13 @@ export const translations = {
       blog: 'Blog',
       contact: 'İletişim'
     },
-    
-    // Home Page
     home: {
       hero: {
         greeting: 'Merhaba, Ben',
         name: 'Serhat Soysal',
-        title: 'Full-Stack Yazılım Mühendisi',
-        subtitle: 'Ölçeklenebilir sistemler ve akıllı arayüzler geliştiriyorum',
-        description: 'Cutting-edge teknolojileri kullanarak sağlam, ölçeklenebilir uygulamalar geliştiriyorum. Temiz kod, sistem tasarımı ve olağanüstü kullanıcı deneyimleri yaratma konusunda tutkulum.',
+        title: 'Java Back-End Yazılım Mühendisi | AI-Entegre Sistemler',
+        subtitle: 'Yüksek performanslı mikroservisler ve ölçeklenebilir dağıtık sistemler geliştiriyorum',
+        description: 'Ölçeklenebilir mikroservisler ve yüksek performanslı backend sistemleri tasarlama ve optimize etme konusunda 5+ yıllık deneyime sahip sonuç odaklı Java Back-End Mühendisi. Java 11+, Spring Boot, Kafka, Docker, Kubernetes, Redis ve AWS konularında uzman. Kurumsal uygulamalara cutting-edge LLM/AI pipeline entegrasyonu konusunda kanıtlanmış deneyim.',
         cta: {
           viewWork: 'Çalışmalarımı Gör',
           getInTouch: 'İletişime Geç'
@@ -195,42 +300,42 @@ export const translations = {
       },
       services: {
         title: 'Profesyonel Hizmetler',
-        subtitle: 'Cutting-edge teknolojiler ve endüstri en iyi uygulamaları ile kurumsal düzeyde çözümler sunuyorum.',
+        subtitle: 'Mikroservis mimarisi, cloud-native teknolojiler ve endüstri en iyi uygulamaları ile kurumsal düzeyde çözümler sunuyorum.',
         fullStack: {
-          title: 'Full-Stack Geliştirme',
-          description: 'React, TypeScript, Spring Boot ve Node.js ile uçtan uca uygulama geliştirme. Modern mimariler, temiz kod uygulamaları ve kapsamlı test stratejileri ile ölçeklenebilir çözümler sunuyorum.'
+          title: 'Java Backend Geliştirme',
+          description: 'Java 11+, Spring Boot, Spring Security, Spring Cloud ve Spring Data ile kurumsal düzeyde backend geliştirme. Telecom düzeyinde sistemler için yüksek transaction hacimlerini yöneten ölçeklenebilir mikroservis mimarileri, kapsamlı test ve temiz kod uygulamaları ile inşa ediyorum.'
         },
         cloudNative: {
-          title: 'Bulut-Tabanlı Çözümler',
-          description: 'AWS, Azure ve GCP üzerinde yüksek ölçeklenebilir uygulamalar tasarlıyor ve dağıtıyorum. Docker ile konteynerleştirme, Kubernetes ile orkestrasyon ve serverless mimarilerde uzmanım.'
+          title: 'Cloud-Native Çözümler',
+          description: 'Docker konteynerizasyonu ve Kubernetes orkestrasyon ile AWS üzerinde production-ready uygulamalar. Lambda, EC2, S3, RDS, CloudWatch ve dağıtık sistemler için cloud-native deployment pattern\'lerinde uzmanım.'
         },
         systemDesign: {
-          title: 'Sistem Mimarisi',
-          description: 'Mikroservisler, event-driven mimariler ve dağıtık bilişim desenleri kullanarak dayanıklı, yüksek performanslı sistemler tasarlıyorum. Ölçeklenebilirlik, güvenilirlik ve sürdürülebilirlik odaklı.'
+          title: 'Mikroservis Mimarisi',
+          description: 'Mikroservis pattern\'leri, Kafka ve RabbitMQ ile event-driven mimariler, API Gateway ve servis orkestrasyon kullanarak dayanıklı, yüksek performanslı dağıtık sistemler tasarlıyorum. Büyük ölçekli platformlar için ölçeklenebilirlik, güvenilirlik ve zero-downtime deployment odaklı.'
         },
         devops: {
           title: 'DevOps & CI/CD',
-          description: 'Otomatik deployment pipeline\'ları, infrastructure as code ve monitoring çözümleri uyguluyorum. Jenkins, GitLab CI, GitHub Actions ve cloud-native deployment stratejilerinde uzmanım.'
+          description: 'Jenkins, GitHub Actions ve GitLab CI kullanarak otomatik CI/CD pipeline\'ları. Terraform ile infrastructure as code, konteyner deployment\'ları ve mikroservis ekosistemler için deployment hızı ve güvenilirliğini optimize eden continuous integration workflow\'ları.'
         },
         database: {
           title: 'Veritabanı Çözümleri',
-          description: 'Performans ve ölçeklenebilirlik için veritabanı mimarileri tasarlıyor ve optimize ediyorum. PostgreSQL, MongoDB, Redis ve kurumsal uygulamalar için veritabanı migrasyon stratejilerinde uzmanım.'
+          description: 'Telecom düzeyinde uygulamalar için veritabanı sistemleri mimarlama ve optimize etme. PostgreSQL, MySQL, SQL Server, MongoDB, Redis ve Elasticsearch konusunda uzman. Performans tuning, query optimizasyon, data indexing ve Flyway kullanarak migrasyon stratejileri.'
         },
         apiDesign: {
           title: 'API Tasarımı & Entegrasyon',
-          description: 'RESTful API\'ler, GraphQL endpoint\'leri ve gerçek zamanlı iletişim sistemleri oluşturuyorum. Kapsamlı dokümantasyonla güvenlik, performans ve developer experience odaklı.'
+          description: 'RESTful API\'ler, SOAP/WSDL servisleri ve WebSockets ile gerçek zamanlı iletişim geliştirme. Yüksek hacimli transaction yönetimi, OAuth2 ve JWT ile güvenli API flow\'ları, kapsamlı dokümantasyon ve dağıtık mimariler için API Gateway pattern\'lerinde uzmanım.'
         },
         performance: {
           title: 'Performans Optimizasyonu',
-          description: 'Uygulama performansını analiz ediyor ve optimize ediyorum, yükleme sürelerini azaltıyor ve önbellekleme stratejileri uyguluyorum. Profiling, monitoring ve kapasite planlamasında uzmanım.'
+          description: 'Response time ve throughput\'ta ölçülebilir iyileştirmeler sağlayan backend sistem optimizasyonu. Redis ile caching, profiling, metric-tabanlı tuning ve telecom payment platformları için performans optimizasyonu ile API latency azaltma.'
         },
         security: {
           title: 'Güvenlik & Compliance',
-          description: 'Güvenlik en iyi uygulamaları, kimlik doğrulama sistemleri ve compliance çerçeveleri uyguluyorum. OAuth, JWT, veri şifreleme ve güvenlik denetimi konularında deneyimliyim.'
+          description: 'Spring Security, OAuth2, JWT authentication ve güvenli transaction flow\'ları uygulama. Data encryption, güvenlik denetimi ve enterprise ile telecom endüstrisi için compliant sistemler inşa etme deneyimi.'
         },
         consulting: {
-          title: 'Teknik Liderlik',
-          description: 'Stratejik teknik rehberlik, kod incelemeleri ve mentörlük sağlıyorum. Ekiplerin en iyi uygulamaları benimsemeleri, kod kalitesini artırmaları ve yüksek kaliteli yazılım çözümleri sunmalarına yardımcı oluyorum.'
+          title: 'Teknik Liderlik & AI Entegrasyonu',
+          description: 'Stratejik teknik rehberlik, kod incelemeleri ve mentörlük. Cutting-edge LLM/AI pipeline\'ları, OpenAI GPT, TTS ve multimodal AI\'ı kurumsal uygulamalara entegre etme. Ekiplerin mikroservis best practice\'lerini benimsemelerine ve yüksek kaliteli dağıtık sistemler sunmalarına yardımcı olma.'
         }
       },
       stats: {
@@ -240,55 +345,172 @@ export const translations = {
         clients: 'Mutlu Müşteri'
       }
     },
-    
-    // About Page
     about: {
-      title: 'Hakkımda',
-      subtitle: 'İnovasyon tutkusu olan Full-Stack Yazılım Mühendisi',
-      intro: 'Ölçeklenebilir, yüksek performanslı uygulamalar geliştirme konusunda uzmanlığa sahip tutkulu bir full-stack yazılım mühendisiyim. Yazılım geliştirmedeki yolculuğum merak ve karmaşık sorunları zarif kodlarla çözme arzusuyla şekillenmiştir.',
-      background: {
-        title: 'Geçmiş',
-        content: 'Yıllarca yazılım geliştirme deneyimi ile mikroservis mimarilerinden modern web uygulamalarına kadar çeşitli projelerde çalıştım. Temiz, sürdürülebilir kod yazmaya ve endüstri en iyi uygulamalarını takip etmeye inanıyorum.'
+      meta: {
+        title: 'Hakkımda | Serhat Soysal',
+        description: 'Mikroservisler, cloud-native teknolojiler ve AI entegrasyonu konusunda uzmanlaşmış Java Back-End Yazılım Mühendisi Serhat Soysal hakkında daha fazla bilgi edinin.'
+      },
+      hero: {
+        badge: 'Yazılım Mühendisi',
+        title: 'Hakkımda',
+        subtitle: 'Ölçeklenebilir çözümler geliştirme ve gelişen teknolojileri keşfetme tutkusu'
+      },
+      stats: {
+        experience: 'Yıl Deneyim',
+        projects: 'Tamamlanan Proje',
+        technologies: 'Teknoloji',
+        uptime: 'Çalışma Süresi'
+      },
+      intro: {
+        greeting: 'Merhaba, Ben Serhat!',
+        paragraph1: 'Ölçeklenebilir, verimli ve güvenilir uygulamalar geliştirmeye odaklanan tutkulu bir Java Back-End Yazılım Mühendisiyim. Yazılım geliştirme yolculuğum, cloud-native teknolojiler ve AI entegrasyonu konusunda uzmanlaşmış mikroservis mimarisinde uzmanlaşmama yol açtı.',
+        paragraph2: 'Karmaşık problemleri çözmeyi ve fikirleri sağlam yazılım çözümlerine dönüştürmeyi seviyorum. Mikroservis mimarileri oluşturmak, veritabanı performansını optimize etmek veya AI/ML pipeline\'larını entegre etmek olsun, her projeye detaylara dikkat ve kalite taahhüdü ile yaklaşıyorum.',
+        quote: '"Temiz kod, ölçeklenebilir sistemler, yenilikçi çözümler."'
+      },
+      focus: {
+        whatIDo: {
+          title: 'Ne Yapıyorum',
+          items: [
+            'Kurumsal Java backend geliştirme',
+            'Mikroservis mimari tasarımı',
+            'Cloud-native uygulama dağıtımı',
+            'DevOps & CI/CD pipeline implementasyonu',
+            'Veritabanı optimizasyonu ve yönetimi',
+            'Uygulamalara AI/ML entegrasyonu'
+          ]
+        },
+        currentFocus: {
+          title: 'Şu Anki Odak',
+          items: [
+            'Gelişmiş mikroservis pattern\'leri',
+            'Kubernetes ve konteyner orkestrasyon',
+            'Kafka ile event-driven mimariler',
+            'Kurumsal sistemlerde AI/LLM entegrasyonu',
+            'Ölçekte performans optimizasyonu',
+            'Açık kaynak katkıları'
+          ]
+        }
       },
       skills: {
-        title: 'Teknik Yetenekler',
-        backend: 'Backend Geliştirme',
-        frontend: 'Frontend Geliştirme',
-        cloud: 'Bulut & DevOps',
-        database: 'Veritabanı Yönetimi'
+        title: 'Temel Yetkinlikler',
+        subtitle: 'Harika uygulamalar geliştirmek için kullandığım teknolojiler ve araçlar',
+        backend: {
+          title: 'Backend & Mikroservisler',
+          items: ['Java 11+', 'Spring Boot', 'Spring Cloud', 'Kafka', 'RabbitMQ', 'WebSocket', 'REST API', 'SOAP']
+        },
+        cloud: {
+          title: 'Cloud & DevOps',
+          items: ['AWS', 'Docker', 'Kubernetes', 'Jenkins', 'GitLab CI', 'Terraform', 'Lambda', 'EC2']
+        },
+        database: {
+          title: 'Veritabanları',
+          items: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Elasticsearch', 'Flyway', 'JPA/Hibernate']
+        },
+        devops: {
+          title: 'Araçlar & Pratikler',
+          items: ['Git', 'Maven', 'Gradle', 'JUnit', 'Mockito', 'SonarQube', 'Agile/Scrum', 'TDD']
+        }
       },
-      approach: {
-        title: 'Yaklaşımım',
-        content: 'Sürekli öğrenmeye ve en son teknolojilerle güncel kalmaya inanıyorum. Yaklaşımım teknik mükemmelliği kullanıcı odaklı tasarımla birleştirerek sadece iyi çalışmakla kalmayıp aynı zamanda olağanüstü kullanıcı deneyimleri sağlayan çözümler yaratmaktır.'
+      experience: {
+        title: 'Profesyonel Yolculuk',
+        subtitle: 'Kariyerimdeki önemli dönüm noktaları',
+        senior: {
+          title: 'AI Software Developer',
+          company: 'Zainlee Technologies | Dubai, BAE',
+          description: 'Görüntü, ses ve metin işlemeyi entegre eden gerçek zamanlı yüz tanıma ve multimodal AI uygulamaları geliştirdim. MCP Server bileşenleri, webhook otomasyon akışları ve backend API\'ler tasarladım. OpenAI LLM ve TTS teknolojilerini kullanarak production-ready AI çözümleri oluşturdum.'
+        },
+        backend: {
+          title: 'Java Full-Stack Engineer',
+          company: 'Ericsson Telecommunications Inc. | İstanbul, Türkiye',
+          description: 'Turkcell telecom operasyonları için backend otomasyon sistemleri geliştirdim. Redis caching, RabbitMQ messaging ile mikroservisler uyguladım ve Docker kullanarak konteynerleştirdim. İş akışlarını otomatikleştirdim ve Jenkins kullanarak CI/CD pipeline\'ları entegre ettim.'
+        },
+        junior: {
+          title: 'Java Back-End Software Engineer',
+          company: 'Huawei Technologies Co. | İstanbul, Türkiye',
+          description: 'Yüksek transaction hacimlerine hizmet eden büyük ölçekli telecom ödeme sistemleri için backend modülleri geliştirdim. Güvenli transaction akışları tasarladım ve caching yoluyla API performansını optimize ettim. REST endpoint\'lerini yeniden yapılandırarak sistem güvenilirliğini artırdım.'
+        },
+        mepsan: {
+          title: 'Java Full-Stack Developer',
+          company: 'Mepsan Petrol Devices Inc. | Konya, Türkiye',
+          description: 'IoT donanımını backend servisleriyle entegre eden akaryakıt istasyonu ağları için otomasyon sistemleri oluşturdum. MQTT ve TCP/IP protokollerini kullanarak gerçek zamanlı veri iletişimi uyguladım.'
+        }
+      },
+      techStack: {
+        title: 'Teknoloji Yığını',
+        subtitle: 'Günlük olarak çalıştığım araçlar ve teknolojiler'
+      },
+      cta: {
+        title: 'Birlikte Çalışalım',
+        description: 'Her zaman yeni fırsatlar ve zorlu projelerle ilgileniyorum. Fikirlerinizi hayata geçirmek için nasıl çalışabileceğimizi konuşalım.',
+        contact: 'İletişime Geç',
+        projects: 'Çalışmalarımı Gör'
       }
     },
-    
-    // Projects Page
     projects: {
-      title: 'Projelerim',
-      subtitle: 'Modern teknolojiler kullanarak geliştirdiğim uygulama ve çözümler koleksiyonu',
-      featured: 'Öne Çıkan Projeler',
-      allProjects: 'Tüm Projeler',
-      viewDemo: 'Demoyu Gör',
-      viewCode: 'Kodu Gör',
+      meta: {
+        title: 'Projeler | Serhat Soysal',
+        description: 'Mikroservisler, cloud çözümleri ve kurumsal uygulamalar içeren yazılım projelerimi keşfedin.'
+      },
+      hero: {
+        badge: 'Çalışmalarım',
+        title: 'Öne Çıkan Projeler',
+        subtitle: 'Geliştirdiğim kurumsal düzeyde uygulama ve çözümlerin vitrini'
+      },
+      filters: {
+        all: 'Tüm Projeler',
+        featured: 'Öne Çıkan'
+      },
+      badges: {
+        featured: 'Öne Çıkan'
+      },
       techStack: 'Teknoloji Yığını',
-      comingSoon: 'Yakında'
+      buttons: {
+        liveDemo: 'Canlı Demo',
+        github: 'GitHub',
+        viewProject: 'Projeyi Gör',
+        viewCode: 'Kodu Gör'
+      },
+      cta: {
+        title: 'Birlikte Çalışmak İster misiniz?',
+        description: 'Her zaman yeni projeler, yaratıcı fikirler veya işbirliği fırsatlarını tartışmaya açığım.',
+        startProject: 'Proje Başlat',
+        viewGithub: 'GitHub Profilini Görüntüle'
+      }
     },
-    
-    // Blog Page
     blog: {
-      title: 'Son Makaleler',
-      subtitle: 'Yazılım geliştirme, teknoloji ve en iyi uygulamalar üzerine düşünceler',
+      meta: {
+        title: 'Blog | Serhat Soysal',
+        description: 'Yazılım geliştirme, mikroservisler, cloud teknolojileri ve programlama en iyi uygulamaları hakkında teknik blog yazıları.'
+      },
+      hero: {
+        badge: 'Teknik Blog',
+        title: 'Son Makaleler',
+        subtitle: 'Yazılım geliştirme üzerine teknik görüşler, eğitimler ve düşünceler'
+      },
+      search: {
+        placeholder: 'Makale ara...'
+      },
+      tags: {
+        all: 'Tüm Makaleler'
+      },
+      featured: {
+        title: 'Öne Çıkan Makale'
+      },
+      badges: {
+        featured: 'Öne Çıkan'
+      },
       readMore: 'Devamını Oku',
-      readTime: 'dakika okuma',
-      publishedOn: 'Yayınlanma tarihi',
-      tags: 'Etiketler',
-      backToBlog: 'Bloga Dön',
-      noArticles: 'Makale bulunamadı.',
-      searchPlaceholder: 'Makale ara...'
+      noResults: {
+        title: 'Makale bulunamadı',
+        description: 'Aradığınızı bulmak için aramanızı veya filtrenizi ayarlamayı deneyin.'
+      },
+      cta: {
+        title: 'Güncel Kalın',
+        description: 'En son yazılarım ve projelerimle güncel kalmak için sosyal medyada takip edin veya doğrudan ulaşın.',
+        getInTouch: 'İletişime Geç',
+        followGithub: 'GitHub\'da Takip Et'
+      }
     },
-    
-    // Contact Page
     contact: {
       title: 'İletişime Geçin',
       subtitle: 'Projenizi tartışalım veya sadece merhaba deyin',
@@ -314,17 +536,13 @@ export const translations = {
         connect: 'Profesyonel ağlarda bağlantı kuralım'
       }
     },
-    
-    // Footer
     footer: {
-      description: 'React, TypeScript, Spring Boot ve bulut-native mimariler ile kurumsal düzeyde çözümler konusunda uzmanlaşmış Full-Stack Yazılım Mühendisi. Temiz kod, sistem tasarımı ve ölçeklenebilir, sürdürülebilir uygulamalar aracılığıyla olağanüstü kullanıcı deneyimleri sunma konusunda tutkulu.',
+      description: 'Ölçeklenebilir mikroservisler, Spring Boot, Kafka, Docker, Kubernetes ve AWS konusunda uzmanlaşmış 5+ yıllık deneyime sahip Java Back-End Yazılım Mühendisi. Telecom platformları için yüksek performanslı dağıtık sistemler inşa etme ve kurumsal uygulamalara AI/ML pipeline entegrasyonu konusunda uzman. Dubai, BAE merkezli.',
       quickLinks: 'Hızlı Bağlantılar',
       contact: 'İletişim',
       copyright: '© {{year}} Serhat Soysal. Tüm hakları saklıdır.',
       builtWith: 'React & Tailwind CSS ile geliştirilmiştir'
     },
-    
-    // Common
     common: {
       loading: 'Yükleniyor...',
       error: 'Bir şeyler ters gitti',
@@ -339,9 +557,7 @@ export const translations = {
       lightMode: 'Açık Mod'
     }
   },
-
   ar: {
-    // Navigation
     nav: {
       home: 'الرئيسية',
       about: 'نبذة عني',
@@ -349,15 +565,13 @@ export const translations = {
       blog: 'المدونة',
       contact: 'اتصل بي'
     },
-    
-    // Home Page
     home: {
       hero: {
         greeting: 'مرحباً، أنا',
         name: 'سرحات سويسال',
-        title: 'مهندس برمجيات متكامل',
-        subtitle: 'صناعة أنظمة قابلة للتوسع وواجهات ذكية',
-        description: 'أقوم ببناء تطبيقات قوية وقابلة للتوسع باستخدام التقنيات المتطورة. شغوف بالكود النظيف وتصميم الأنظمة وإنشاء تجارب مستخدم استثنائية.',
+        title: 'مهندس برمجيات Java Back-End | أنظمة متكاملة مع الذكاء الاصطناعي',
+        subtitle: 'بناء خدمات مصغرة عالية الأداء وأنظمة موزعة قابلة للتوسع',
+        description: 'مهندس Java Back-End موجه نحو النتائج مع أكثر من 5 سنوات من الخبرة في تصميم وتحسين الخدمات المصغرة القابلة للتوسع وأنظمة الخلفية عالية الأداء. متخصص في Java 11+، Spring Boot، Kafka، Docker، Kubernetes، Redis، و AWS. خبرة مثبتة في دمج خطوط أنابيب LLM/AI المتطورة في تطبيقات المؤسسات.',
         cta: {
           viewWork: 'اطلع على أعمالي',
           getInTouch: 'تواصل معي'
@@ -365,42 +579,42 @@ export const translations = {
       },
       services: {
         title: 'الخدمات المهنية',
-        subtitle: 'تقديم حلول على مستوى المؤسسات بأحدث التقنيات وأفضل الممارسات الصناعية.',
+        subtitle: 'تقديم حلول على مستوى المؤسسات مع بنية الخدمات المصغرة، التقنيات السحابية الأصلية، وأفضل الممارسات الصناعية.',
         fullStack: {
-          title: 'التطوير المتكامل',
-          description: 'تطوير تطبيقات شاملة باستخدام React، TypeScript، Spring Boot، و Node.js. تقديم حلول قابلة للتوسع مع المعمارية الحديثة، ممارسات الكود النظيف، واستراتيجيات الاختبار الشاملة.'
+          title: 'تطوير Java Backend',
+          description: 'تطوير الخلفية على مستوى المؤسسات مع Java 11+، Spring Boot، Spring Security، Spring Cloud، و Spring Data. بناء معماريات الخدمات المصغرة القابلة للتوسع التي تتعامل مع أحجام معاملات عالية لأنظمة مستوى الاتصالات مع اختبار شامل وممارسات الكود النظيف.'
         },
         cloudNative: {
-          title: 'الحلول السحابية',
-          description: 'تصميم ونشر تطبيقات عالية التوسع على AWS، Azure، و GCP. خبير في الحاويات مع Docker، التنسيق مع Kubernetes، والمعماريات بدون خادم.'
+          title: 'الحلول السحابية الأصلية',
+          description: 'تطبيقات جاهزة للإنتاج على AWS مع حاويات Docker وتنسيق Kubernetes. خبرة في Lambda، EC2، S3، RDS، CloudWatch، وأنماط النشر السحابية الأصلية للأنظمة الموزعة.'
         },
         systemDesign: {
-          title: 'هندسة الأنظمة',
-          description: 'تصميم أنظمة مرنة وعالية الأداء باستخدام الخدمات الصغيرة والمعماريات المدفوعة بالأحداث وأنماط الحوسبة الموزعة. التركيز على قابلية التوسع والموثوقية والصيانة.'
+          title: 'بنية الخدمات المصغرة',
+          description: 'تصميم أنظمة موزعة مرنة وعالية الأداء باستخدام أنماط الخدمات المصغرة، والبنى المدفوعة بالأحداث مع Kafka و RabbitMQ، وAPI Gateway، وتنسيق الخدمات. التركيز على قابلية التوسع والموثوقية ونشر بدون توقف للمنصات واسعة النطاق.'
         },
         devops: {
           title: 'DevOps & CI/CD',
-          description: 'تنفيذ خطوط أنابيب النشر الآلية، والبنية التحتية كرمز، وحلول المراقبة. الخبرة في Jenkins، GitLab CI، GitHub Actions، واستراتيجيات النشر السحابية الأصلية.'
+          description: 'خطوط أنابيب CI/CD الآلية باستخدام Jenkins، GitHub Actions، و GitLab CI. البنية التحتية كرمز مع Terraform، ونشر الحاويات، وسير عمل التكامل المستمر الذي يحسن سرعة النشر والموثوقية لنظم الخدمات المصغرة.'
         },
         database: {
           title: 'حلول قواعد البيانات',
-          description: 'تصميم وتحسين معماريات قواعد البيانات للأداء وقابلية التوسع. خبير في PostgreSQL، MongoDB، Redis، واستراتيجيات ترحيل قواعد البيانات للتطبيقات المؤسسية.'
+          description: 'تصميم وتحسين أنظمة قواعد البيانات لتطبيقات مستوى الاتصالات. خبير في PostgreSQL، MySQL، SQL Server، MongoDB، Redis، و Elasticsearch. ضبط الأداء، تحسين الاستعلام، فهرسة البيانات، واستراتيجيات الترحيل باستخدام Flyway.'
         },
         apiDesign: {
           title: 'تصميم API والتكامل',
-          description: 'إنشاء RESTful APIs، نقاط GraphQL، وأنظمة التواصل في الوقت الفعلي. التركيز على الأمان والأداء وتجربة المطور مع التوثيق الشامل.'
+          description: 'بناء RESTful APIs، خدمات SOAP/WSDL، والاتصال في الوقت الفعلي مع WebSockets. خبرة في التعامل مع المعاملات عالية الحجم، وتدفقات API الآمنة مع OAuth2 و JWT، والوثائق الشاملة، وأنماط API Gateway للبنى الموزعة.'
         },
         performance: {
           title: 'تحسين الأداء',
-          description: 'تحليل وتحسين أداء التطبيقات، تقليل أوقات التحميل، وتنفيذ استراتيجيات التخزين المؤقت. خبير في التشخيص والمراقبة وتخطيط السعة.'
+          description: 'تحسين أنظمة الخلفية لتحقيق تحسينات قابلة للقياس في أوقات الاستجابة والإنتاجية. تقليل زمن الاستجابة لـ API من خلال التخزين المؤقت مع Redis، والتحليل، والضبط المعتمد على المقاييس، وتحسين الأداء لمنصات الدفع في الاتصالات.'
         },
         security: {
           title: 'الأمان والامتثال',
-          description: 'تنفيذ أفضل ممارسات الأمان، أنظمة المصادقة، وإطارات الامتثال. خبرة في OAuth، JWT، تشفير البيانات، ومراجعة الأمان.'
+          description: 'تنفيذ Spring Security، OAuth2، مصادقة JWT، وتدفقات المعاملات الآمنة. خبرة في تشفير البيانات، وتدقيق الأمان، وبناء أنظمة متوافقة للمؤسسات وصناعة الاتصالات.'
         },
         consulting: {
-          title: 'القيادة التقنية',
-          description: 'تقديم التوجيه التقني الاستراتيجي، مراجعات الكود، والإرشاد. مساعدة الفرق على تبني أفضل الممارسات، تحسين جودة الكود، وتقديم حلول برمجية عالية الجودة.'
+          title: 'القيادة التقنية ودمج الذكاء الاصطناعي',
+          description: 'التوجيه التقني الاستراتيجي، ومراجعات الكود، والإرشاد. دمج خطوط أنابيب LLM/AI المتطورة، OpenAI GPT، TTS، والذكاء الاصطناعي متعدد الوسائط في تطبيقات المؤسسات. مساعدة الفرق على اعتماد أفضل ممارسات الخدمات المصغرة وتقديم أنظمة موزعة عالية الجودة.'
         }
       },
       stats: {
@@ -410,55 +624,172 @@ export const translations = {
         clients: 'العملاء السعداء'
       }
     },
-    
-    // About Page
     about: {
-      title: 'نبذة عني',
-      subtitle: 'مهندس برمجيات متكامل شغوف بالابتكار',
-      intro: 'أنا مهندس برمجيات متكامل شغوف بخبرة في بناء تطبيقات قابلة للتوسع وعالية الأداء. رحلتي في تطوير البرمجيات مدفوعة بالفضول والرغبة في حل المشاكل المعقدة من خلال الكود الأنيق.',
-      background: {
-        title: 'الخلفية',
-        content: 'مع سنوات من الخبرة في تطوير البرمجيات، عملت على مشاريع متنوعة تتراوح من بنى الخدمات الصغيرة إلى تطبيقات الويب الحديثة. أؤمن بكتابة كود نظيف وقابل للصيانة واتباع أفضل الممارسات في الصناعة.'
+      meta: {
+        title: 'نبذة عني | سرحات سويسال',
+        description: 'تعرف على المزيد عن سرحات سويسال، مهندس برمجيات Java Back-End متخصص في الخدمات المصغرة والتقنيات السحابية الأصلية ودمج الذكاء الاصطناعي.'
+      },
+      hero: {
+        badge: 'مهندس برمجيات',
+        title: 'نبذة عني',
+        subtitle: 'شغوف ببناء حلول قابلة للتوسع واستكشاف التقنيات الناشئة'
+      },
+      stats: {
+        experience: 'سنوات الخبرة',
+        projects: 'المشاريع المكتملة',
+        technologies: 'التقنيات',
+        uptime: 'وقت التشغيل'
+      },
+      intro: {
+        greeting: 'مرحباً، أنا سرحات!',
+        paragraph1: 'أنا مهندس برمجيات Java Back-End شغوف يركز بقوة على بناء تطبيقات قابلة للتوسع وفعالة وموثوقة. قادتني رحلتي في تطوير البرمجيات إلى التخصص في بنية الخدمات المصغرة مع الخبرة في التقنيات السحابية الأصلية ودمج الذكاء الاصطناعي.',
+        paragraph2: 'أستمتع بحل المشكلات المعقدة وتحويل الأفكار إلى حلول برمجية قوية. سواء كان الأمر يتعلق بتصميم الخدمات المصغرة، أو تحسين أداء قاعدة البيانات، أو دمج خطوط أنابيب AI/ML، أتعامل مع كل مشروع بالاهتمام بالتفاصيل والالتزام بالجودة.',
+        quote: '"كود نظيف، أنظمة قابلة للتوسع، حلول مبتكرة."'
+      },
+      focus: {
+        whatIDo: {
+          title: 'ما أقوم به',
+          items: [
+            'تطوير الخلفية Java للمؤسسات',
+            'تصميم بنية الخدمات المصغرة',
+            'نشر التطبيقات السحابية الأصلية',
+            'تنفيذ خطوط أنابيب DevOps & CI/CD',
+            'تحسين وإدارة قواعد البيانات',
+            'دمج AI/ML في التطبيقات'
+          ]
+        },
+        currentFocus: {
+          title: 'التركيز الحالي',
+          items: [
+            'أنماط الخدمات المصغرة المتقدمة',
+            'تنسيق Kubernetes والحاويات',
+            'البنى المدفوعة بالأحداث مع Kafka',
+            'دمج AI/LLM في الأنظمة المؤسسية',
+            'تحسين الأداء على نطاق واسع',
+            'المساهمات مفتوحة المصدر'
+          ]
+        }
       },
       skills: {
-        title: 'المهارات التقنية',
-        backend: 'تطوير الخلفية',
-        frontend: 'تطوير الواجهة',
-        cloud: 'السحابة والعمليات',
-        database: 'إدارة قواعد البيانات'
+        title: 'الكفاءات الأساسية',
+        subtitle: 'التقنيات والأدوات التي أستخدمها لبناء تطبيقات رائعة',
+        backend: {
+          title: 'الخلفية والخدمات المصغرة',
+          items: ['Java 11+', 'Spring Boot', 'Spring Cloud', 'Kafka', 'RabbitMQ', 'WebSocket', 'REST API', 'SOAP']
+        },
+        cloud: {
+          title: 'السحابة وDevOps',
+          items: ['AWS', 'Docker', 'Kubernetes', 'Jenkins', 'GitLab CI', 'Terraform', 'Lambda', 'EC2']
+        },
+        database: {
+          title: 'قواعد البيانات',
+          items: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Elasticsearch', 'Flyway', 'JPA/Hibernate']
+        },
+        devops: {
+          title: 'الأدوات والممارسات',
+          items: ['Git', 'Maven', 'Gradle', 'JUnit', 'Mockito', 'SonarQube', 'Agile/Scrum', 'TDD']
+        }
       },
-      approach: {
-        title: 'منهجي',
-        content: 'أؤمن بالتعلم المستمر والبقاء محدثاً مع أحدث التقنيات. منهجي يجمع بين التميز التقني والتصميم المتمحور حول المستخدم لإنشاء حلول لا تعمل بشكل جيد فحسب، بل تقدم أيضاً تجارب مستخدم استثنائية.'
+      experience: {
+        title: 'الرحلة المهنية',
+        subtitle: 'المعالم الرئيسية في مسيرتي المهنية',
+        senior: {
+          title: 'مطور برمجيات AI',
+          company: 'Zainlee Technologies | دبي، الإمارات',
+          description: 'طورت تطبيقات التعرف على الوجه في الوقت الفعلي والذكاء الاصطناعي متعدد الوسائط التي تدمج معالجة الصور والصوت والنص. صممت مكونات MCP Server وتدفقات أتمتة webhook وواجهات API الخلفية. بنيت حلول AI جاهزة للإنتاج باستخدام تقنيات OpenAI LLM و TTS.'
+        },
+        backend: {
+          title: 'مهندس Java Full-Stack',
+          company: 'Ericsson Telecommunications Inc. | إسطنبول، تركيا',
+          description: 'طورت أنظمة أتمتة خلفية لعمليات Turkcell للاتصالات. نفذت خدمات مصغرة مع التخزين المؤقت Redis ورسائل RabbitMQ وحاويات Docker. أتمتة سير العمل ودمج خطوط أنابيب CI/CD باستخدام Jenkins.'
+        },
+        junior: {
+          title: 'مهندس برمجيات Java Back-End',
+          company: 'Huawei Technologies Co. | إسطنبول، تركيا',
+          description: 'طورت وحدات خلفية لأنظمة الدفع في الاتصالات واسعة النطاق التي تخدم أحجام معاملات عالية. صممت تدفقات معاملات آمنة وحسنت أداء API من خلال التخزين المؤقت. عززت موثوقية النظام من خلال إعادة هيكلة نقاط نهاية REST.'
+        },
+        mepsan: {
+          title: 'مطور Java Full-Stack',
+          company: 'Mepsan Petrol Devices Inc. | قونية، تركيا',
+          description: 'بنيت أنظمة أتمتة لشبكات محطات الوقود التي تدمج أجهزة IoT مع خدمات الخلفية. نفذت اتصال البيانات في الوقت الفعلي باستخدام بروتوكولات MQTT و TCP/IP.'
+        }
+      },
+      techStack: {
+        title: 'مجموعة التقنيات',
+        subtitle: 'الأدوات والتقنيات التي أعمل بها يومياً'
+      },
+      cta: {
+        title: 'لنعمل معاً',
+        description: 'أنا دائماً مهتم بفرص جديدة ومشاريع صعبة. دعنا نناقش كيف يمكننا تحقيق أفكارك.',
+        contact: 'تواصل معي',
+        projects: 'اطلع على أعمالي'
       }
     },
-    
-    // Projects Page
     projects: {
-      title: 'مشاريعي',
-      subtitle: 'مجموعة من التطبيقات والحلول التي بنيتها باستخدام التقنيات الحديثة',
-      featured: 'المشاريع المميزة',
-      allProjects: 'جميع المشاريع',
-      viewDemo: 'عرض تجريبي',
-      viewCode: 'عرض الكود',
+      meta: {
+        title: 'المشاريع | سرحات سويسال',
+        description: 'استكشف مجموعة مشاريع البرمجيات الخاصة بي بما في ذلك الخدمات المصغرة والحلول السحابية وتطبيقات المؤسسات.'
+      },
+      hero: {
+        badge: 'أعمالي',
+        title: 'المشاريع المميزة',
+        subtitle: 'عرض للتطبيقات والحلول على مستوى المؤسسات التي بنيتها'
+      },
+      filters: {
+        all: 'جميع المشاريع',
+        featured: 'مميز'
+      },
+      badges: {
+        featured: 'مميز'
+      },
       techStack: 'مجموعة التقنيات',
-      comingSoon: 'قريباً'
+      buttons: {
+        liveDemo: 'عرض مباشر',
+        github: 'GitHub',
+        viewProject: 'عرض المشروع',
+        viewCode: 'عرض الكود'
+      },
+      cta: {
+        title: 'هل تهتم بالعمل معاً؟',
+        description: 'أنا دائماً منفتح على مناقشة مشاريع جديدة أو أفكار إبداعية أو فرص التعاون.',
+        startProject: 'ابدأ مشروعاً',
+        viewGithub: 'عرض ملف GitHub'
+      }
     },
-    
-    // Blog Page
     blog: {
-      title: 'آخر المقالات',
-      subtitle: 'أفكار حول تطوير البرمجيات والتكنولوجيا وأفضل الممارسات',
+      meta: {
+        title: 'المدونة | سرحات سويسال',
+        description: 'مقالات مدونة تقنية حول تطوير البرمجيات والخدمات المصغرة والتقنيات السحابية وأفضل ممارسات البرمجة.'
+      },
+      hero: {
+        badge: 'مدونة تقنية',
+        title: 'آخر المقالات',
+        subtitle: 'رؤى تقنية ودروس وأفكار حول تطوير البرمجيات'
+      },
+      search: {
+        placeholder: 'البحث عن المقالات...'
+      },
+      tags: {
+        all: 'جميع المقالات'
+      },
+      featured: {
+        title: 'مقال مميز'
+      },
+      badges: {
+        featured: 'مميز'
+      },
       readMore: 'اقرأ المزيد',
-      readTime: 'دقيقة قراءة',
-      publishedOn: 'نُشر في',
-      tags: 'العلامات',
-      backToBlog: 'العودة للمدونة',
-      noArticles: 'لم يتم العثور على مقالات.',
-      searchPlaceholder: 'البحث في المقالات...'
+      noResults: {
+        title: 'لم يتم العثور على مقالات',
+        description: 'حاول تعديل البحث أو الفلتر للعثور على ما تبحث عنه.'
+      },
+      cta: {
+        title: 'ابق على اطلاع',
+        description: 'تابعني على وسائل التواصل الاجتماعي أو تواصل معي مباشرة للبقاء على اطلاع بأحدث منشوراتي ومشاريعي.',
+        getInTouch: 'تواصل معي',
+        followGithub: 'تابع على GitHub'
+      }
     },
-    
-    // Contact Page
     contact: {
       title: 'تواصل معي',
       subtitle: 'دعنا نناقش مشروعك أو فقط قل مرحباً',
@@ -484,17 +815,13 @@ export const translations = {
         connect: 'دعنا نتواصل على الشبكات المهنية'
       }
     },
-    
-    // Footer
     footer: {
-      description: 'مهندس برمجيات متكامل متخصص في الحلول على مستوى المؤسسات باستخدام React، TypeScript، Spring Boot، والهندسة المعمارية السحابية الأصلية. شغوف بالكود النظيف، تصميم الأنظمة، وتقديم تجارب مستخدم استثنائية من خلال التطبيقات القابلة للتوسع والقابلة للصيانة.',
+      description: 'مهندس برمجيات Java Back-End مع أكثر من 5 سنوات متخصص في الخدمات المصغرة القابلة للتوسع، Spring Boot، Kafka، Docker، Kubernetes، و AWS. خبير في بناء أنظمة موزعة عالية الأداء لمنصات الاتصالات ودمج خطوط أنابيب AI/ML في تطبيقات المؤسسات. يقيم في دبي، الإمارات العربية المتحدة.',
       quickLinks: 'روابط سريعة',
       contact: 'اتصل بي',
       copyright: '© {{year}} سرحات سويسال. جميع الحقوق محفوظة.',
       builtWith: 'مبني باستخدام React و Tailwind CSS'
     },
-    
-    // Common
     common: {
       loading: 'جارٍ التحميل...',
       error: 'حدث خطأ ما',
@@ -509,9 +836,7 @@ export const translations = {
       lightMode: 'المظهر الفاتح'
     }
   },
-
   it: {
-    // Navigation
     nav: {
       home: 'Home',
       about: 'Chi Sono',
@@ -519,34 +844,56 @@ export const translations = {
       blog: 'Blog',
       contact: 'Contatti'
     },
-    
-    // Home Page
     home: {
       hero: {
         greeting: 'Ciao, sono',
         name: 'Serhat Soysal',
-        title: 'Ingegnere Software Full-Stack',
-        subtitle: 'Creo sistemi scalabili e interfacce intelligenti',
-        description: 'Sviluppo applicazioni robuste e scalabili utilizzando tecnologie all\'avanguardia. Appassionato di codice pulito, progettazione di sistemi e creazione di esperienze utente eccezionali.',
+        title: 'Ingegnere Software Java Back-End | Sistemi Integrati con AI',
+        subtitle: 'Costruisco microservizi ad alte prestazioni e sistemi distribuiti scalabili',
+        description: 'Ingegnere Java Back-End orientato ai risultati con oltre 5 anni di esperienza nella progettazione e ottimizzazione di microservizi scalabili e sistemi backend ad alte prestazioni. Specializzato in Java 11+, Spring Boot, Kafka, Docker, Kubernetes, Redis e AWS. Esperienza comprovata nell\'integrazione di pipeline LLM/AI all\'avanguardia nelle applicazioni enterprise.',
         cta: {
           viewWork: 'Vedi i Miei Lavori',
           getInTouch: 'Contattami'
         }
       },
       services: {
-        title: 'Cosa Faccio',
-        subtitle: 'Sviluppo applicazioni robuste e scalabili utilizzando tecnologie moderne e best practices.',
+        title: 'Servizi Professionali',
+        subtitle: 'Fornisco soluzioni enterprise con architettura a microservizi, tecnologie cloud-native e le migliori pratiche del settore.',
         fullStack: {
-          title: 'Sviluppo Full-Stack',
-          description: 'Creazione di applicazioni end-to-end con React, Spring Boot e framework moderni.'
+          title: 'Sviluppo Java Backend',
+          description: 'Sviluppo backend di livello enterprise con Java 11+, Spring Boot, Spring Security, Spring Cloud e Spring Data. Costruzione di architetture a microservizi scalabili che gestiscono volumi elevati di transazioni per sistemi di livello telecom con test completi e pratiche di codice pulito.'
         },
         cloudNative: {
           title: 'Soluzioni Cloud-Native',
-          description: 'Progettazione e distribuzione di applicazioni scalabili su AWS, Docker e Kubernetes.'
+          description: 'Applicazioni pronte per la produzione su AWS con containerizzazione Docker e orchestrazione Kubernetes. Esperienza in Lambda, EC2, S3, RDS, CloudWatch e pattern di deployment cloud-native per sistemi distribuiti.'
         },
         systemDesign: {
-          title: 'Architettura dei Sistemi',
-          description: 'Creazione di sistemi efficienti e manutenibili con microservizi e architetture distribuite.'
+          title: 'Architettura a Microservizi',
+          description: 'Progettazione di sistemi distribuiti resilienti e ad alte prestazioni utilizzando pattern di microservizi, architetture event-driven con Kafka e RabbitMQ, API Gateway e orchestrazione dei servizi. Focus su scalabilità, affidabilità e deployment a zero downtime per piattaforme su larga scala.'
+        },
+        devops: {
+          title: 'DevOps & CI/CD',
+          description: 'Pipeline CI/CD automatiche utilizzando Jenkins, GitHub Actions e GitLab CI. Infrastructure as code con Terraform, deployment containerizzati e workflow di integrazione continua che ottimizzano velocità e affidabilità del deployment per ecosistemi di microservizi.'
+        },
+        database: {
+          title: 'Soluzioni Database',
+          description: 'Architettura e ottimizzazione di sistemi database per applicazioni di livello telecom. Esperto in PostgreSQL, MySQL, SQL Server, MongoDB, Redis ed Elasticsearch. Performance tuning, ottimizzazione query, indicizzazione dati e strategie di migrazione utilizzando Flyway.'
+        },
+        apiDesign: {
+          title: 'Design API e Integrazione',
+          description: 'Costruzione di RESTful API, servizi SOAP/WSDL e comunicazione in tempo reale con WebSockets. Esperienza nella gestione di transazioni ad alto volume, flussi API sicuri con OAuth2 e JWT, documentazione completa e pattern API Gateway per architetture distribuite.'
+        },
+        performance: {
+          title: 'Ottimizzazione delle Prestazioni',
+          description: 'Ottimizzazione di sistemi backend per ottenere miglioramenti misurabili nei tempi di risposta e throughput. Riduzione della latenza API tramite caching con Redis, profiling, tuning basato su metriche e ottimizzazione delle prestazioni per piattaforme di pagamento telecom.'
+        },
+        security: {
+          title: 'Sicurezza e Compliance',
+          description: 'Implementazione di Spring Security, OAuth2, autenticazione JWT e flussi di transazione sicuri. Esperienza in crittografia dati, audit di sicurezza e costruzione di sistemi conformi per le industrie enterprise e telecom.'
+        },
+        consulting: {
+          title: 'Leadership Tecnica e Integrazione AI',
+          description: 'Guida tecnica strategica, revisioni del codice e mentoring. Integrazione di pipeline LLM/AI all\'avanguardia, OpenAI GPT, TTS e AI multimodale nelle applicazioni enterprise. Aiuto i team ad adottare le migliori pratiche dei microservizi e a fornire sistemi distribuiti di alta qualità.'
         }
       },
       stats: {
@@ -556,30 +903,26 @@ export const translations = {
         clients: 'Clienti Soddisfatti'
       }
     },
-    
-    // About Page
     about: {
       title: 'Chi Sono',
-      subtitle: 'Ingegnere Software Full-Stack con passione per l\'innovazione',
-      intro: 'Sono un ingegnere software full-stack appassionato con esperienza nella creazione di applicazioni scalabili e ad alte prestazioni. Il mio percorso nello sviluppo software è guidato dalla curiosità e dal desiderio di risolvere problemi complessi attraverso codice elegante.',
+      subtitle: 'Ingegnere Software Java Back-End | Sistemi Integrati con AI',
+      intro: 'Ingegnere Java Back-End orientato ai risultati con oltre 5 anni di esperienza nella progettazione e ottimizzazione di microservizi scalabili e sistemi backend ad alte prestazioni, gestendo volumi elevati di transazioni per piattaforme telecom. Il mio percorso è stato guidato dalla passione per i sistemi distribuiti, l\'architettura pulita e l\'integrazione dell\'AI nelle applicazioni enterprise.',
       background: {
         title: 'Background',
-        content: 'Con anni di esperienza nello sviluppo software, ho lavorato su vari progetti che spaziano dalle architetture di microservizi alle moderne applicazioni web. Credo nella scrittura di codice pulito e manutenibile e nel seguire le migliori pratiche del settore.'
+        content: 'Con una vasta esperienza presso aziende tecnologiche leader tra cui Zainlee Technologies (AI Software Developer), Ericsson (Java Full Stack Engineer), Huawei (Java Back-End Engineer) e Mepsan (Java Full Stack Developer), ho progettato microservizi che gestiscono sistemi di pagamento telecom su larga scala, applicazioni AI in tempo reale e piattaforme di automazione.'
       },
       skills: {
         title: 'Competenze Tecniche',
-        backend: 'Sviluppo Backend',
-        frontend: 'Sviluppo Frontend',
-        cloud: 'Cloud & DevOps',
-        database: 'Gestione Database'
+        backend: 'Java Backend e Microservizi',
+        frontend: 'React e Web Moderno',
+        cloud: 'AWS, Docker, Kubernetes',
+        database: 'PostgreSQL, MySQL, Redis, MongoDB'
       },
       approach: {
         title: 'Il Mio Approccio',
-        content: 'Credo nell\'apprendimento continuo e nel rimanere aggiornato con le ultime tecnologie. Il mio approccio combina eccellenza tecnica con design centrato sull\'utente per creare soluzioni che non solo funzionano bene, ma forniscono anche esperienze utente eccezionali.'
+        content: 'Mi concentro sulla costruzione di sistemi distribuiti scalabili e manutenibili utilizzando pattern di microservizi, architetture event-driven e tecnologie cloud-native. Il mio approccio enfatizza l\'ottimizzazione delle prestazioni, lo sviluppo guidato dai test e l\'integrazione di tecnologie AI/ML all\'avanguardia in applicazioni enterprise pronte per la produzione.'
       }
     },
-    
-    // Projects Page
     projects: {
       title: 'I Miei Progetti',
       subtitle: 'Una raccolta di applicazioni e soluzioni che ho costruito utilizzando tecnologie moderne',
@@ -590,8 +933,6 @@ export const translations = {
       techStack: 'Stack Tecnologico',
       comingSoon: 'Prossimamente'
     },
-    
-    // Blog Page
     blog: {
       title: 'Ultimi Articoli',
       subtitle: 'Riflessioni sullo sviluppo software, tecnologia e best practices',
@@ -603,8 +944,6 @@ export const translations = {
       noArticles: 'Nessun articolo trovato.',
       searchPlaceholder: 'Cerca articoli...'
     },
-    
-    // Contact Page
     contact: {
       title: 'Contattami',
       subtitle: 'Parliamo del tuo progetto o semplicemente salutaci',
@@ -630,17 +969,13 @@ export const translations = {
         connect: 'Connettiamoci sui network professionali'
       }
     },
-    
-    // Footer
     footer: {
-      description: 'Ingegnere Software Full-Stack specializzato in soluzioni enterprise con React, TypeScript, Spring Boot e architetture cloud-native. Appassionato di codice pulito, progettazione di sistemi e creazione di esperienze utente eccezionali attraverso applicazioni scalabili e manutenibili.',
+      description: 'Ingegnere Software Java Back-End con oltre 5 anni specializzato in microservizi scalabili, Spring Boot, Kafka, Docker, Kubernetes e AWS. Esperto nella costruzione di sistemi distribuiti ad alte prestazioni per piattaforme telecom e nell\'integrazione di pipeline AI/ML in applicazioni enterprise. Con sede a Dubai, UAE.',
       quickLinks: 'Link Rapidi',
       contact: 'Contatti',
       copyright: '© {{year}} Serhat Soysal. Tutti i diritti riservati.',
       builtWith: 'Costruito con React & Tailwind CSS'
     },
-    
-    // Common
     common: {
       loading: 'Caricamento...',
       error: 'Qualcosa è andato storto',
